@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700&family=Noto+Serif:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<title>MaddeSign Keramik</title>
+    <title>Kundvagn</title>
+</head>
+<body>
+    <div class="navContainer index">
+        <nav class="black">
+        <div class="mobileLinks">
+          <div class="closeButton">
+            <span class="material-icons icon">
+              close
+              </span>
+          </div>
+          <ul class="navList">
+            <li><a href="kurser.html">Kurser</a></li>
+            <li><a href="om.html">Om MaddeSign</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+          <div class="socialLinks">
+              <p>Följ mig</p>
+              <p>
+                <a href="https://www.instagram.com/maddesign_keramik/">Instagram</a>
+              </p>
+              <p>
+                <a href="https://www.facebook.com/maddesignkeramik/">Facebook</a>
+              </p>
+          </div>
+        </div>
+        <a href="index.html">
+          <svg class="navlogo">
+            <use href="icons/Logga_MaddeSign.svg#svgLogo"></use>
+          </svg>
+        </a>
+        <div class="navIcons">
+          <div class="navToggle">
+          <span class="material-icons icon">
+            menu
+            </span>
+          </div>
+          <a href="kundvagn.html" class="mobileKorg">
+            <div class="varuCount_mobile"></div>
+            <span class="material-icons icon">
+              shopping_bag
+              </span>
+          </a>
+        </div>
+        <ul class="desktopLinks">
+          <li>
+            <a href="kurser.html" class="deskLink">
+              Kurser
+            </a>
+        </li>
+        <li>
+          <a href="om.html" class="deskLink">
+            Om Maddesign
+          </a>
+        </li>
+        <li>
+          <a href="contact.html" class="deskLink">
+            Kontakt
+          </a>
+        </li>
+        </ul>
+        <div class="varukorg">
+          <a href="kundvagn.html" class="deskShop">
+            Varukorg
+            <div class="varuCount"></div>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <main class="kundvagnContainer">
+        <div class="varor">
+            <h2 class="none">
+                Inga varor i kundvagnen
+            </h2>
+            <div class="outline">
+            <h2>
+                Kundvagn (1 vara)
+            </h2>
+            <div class="vara">
+                <div class="imageContainer">
+                    <img src="img/kurs3h.png">
+                </div>
+                <div class="textContainer">
+                    <div>
+                    <h2>
+                        Grundkurs i drejning, 3h
+                    </h2>
+                    <p class="regularText">12/08 17:30-20:30</p>
+                    <p class="regularText">2 deltagare</p>
+                </div>
+                    <p class="delete">
+                        <span class="material-icons icon">
+                            delete
+                        </span>
+                            Ta Bort
+                    </p>
+                </div>
+            </div>
+            </div>
+            <div class="summa">
+                <p class="sumHeader">
+                    Totalsumma <span>(Inkl moms)</span>:
+                </p>
+                <p class="sum">1150 kr</p>
+                <div class="button">
+                    Fortsätt till kassan
+                    <img src="/icons/Arrow_right-W.svg">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="boxAroundAll">
+        <img
+            src="icons/logga_mobil.svg"
+            alt="open the menu"
+            class="logo"
+          />
+          <div class="boxAllLinks">
+            <div class="collapsible">
+              <button id="rotate" onclick="rotateImage()" class="collapsible-btn">
+                Kontakt
+                <img id="rotated"
+                src="icons/Madde_arrowDown.svg"
+                alt="arrow to footer"
+                class="arrow"
+              />
+              </button>
+              <div class="collapsible-content">
+                <a href="#"
+                  >MaddeSign AB</a
+                >
+                <a href="#"
+                  >073-88 646 88
+                  </a
+                >
+                <a href="#"
+                  >madde@madde-sign.se</a
+                >
+                <a href="#"
+                  >Älvbrinken 4B</a
+                >
+                <a href="#"
+                  >652 25 Karlstad</a
+                >
+              </div>
+            </div>
+            <div class="boxLinksAndIcons">
+            <div class="collapsible">
+              <button id="rotateSecondBtn" onclick="rotateImageTwo()"  class="collapsible-btn">
+               Snabblänkar
+                <img id="rotatedTwo"
+                  src="icons/Madde_arrowDown.svg"
+                  alt="link to footer"
+                  class="arrow"
+                />
+              </button>
+              <div class="collapsible-content">
+                <a href="om.html">Om MaddeSign</a>
+                <a href="kurser.html">Boka en kurs
+                </a>
+                <a href="event.html">Boka privat event</a>
+                <a href="contact.html">Kontakta mig</a>
+              </div>
+            </div>
+         <div class="icons-box">
+            <a href="https://www.facebook.com/maddesignkeramik">
+              <img
+              src="icons/facebook.svg"
+              alt="open the menu"
+              class="facebook-icon"
+            />
+            </a>
+            <div class="instagram-icon">
+              <a href="https://www.instagram.com/australia_keramik/"><img
+                src="icons/instagram.svg"
+                alt="open the menu"
+              /></a>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+      <script src="kundvagnScript.js"></script>
+</body>
+</html>

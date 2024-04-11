@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700&family=Noto+Serif:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+    <title>Om Maddesign</title>
+</head>
+<body>
+    <div class="navContainer om">
+        <nav class="black">
+        <div class="mobileLinks">
+          <div class="closeButton">
+            <span class="material-icons icon mobileClose">
+              close
+              </span>
+          </div>
+          <ul class="navList">
+            <li><a href="kurser.html">Kurser</a></li>
+            <li><a href="om.html">Om MaddeSign</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+          <div class="socialLinks">
+              <p>Följ mig</p>
+              <p>
+                <a href="https://www.instagram.com/maddesign_keramik/">Instagram</a>
+              </p>
+              <p>
+                <a href="https://www.facebook.com/maddesignkeramik/">Facebook</a>
+              </p>
+          </div>
+        </div>
+        <a href="index.html">
+          <svg class="navlogo">
+            <use href="icons/Logga_MaddeSign.svg#svgLogo"></use>
+          </svg>
+        </a>
+        <div class="navIcons">
+          <div class="navToggle">
+          <span class="material-icons icon">
+            menu
+            </span>
+          </div>
+          <a href="kundvagn.html" class="mobileKorg">
+            <div class="varuCount_mobile"></div>
+            <span class="material-icons icon">
+              shopping_bag
+              </span>
+          </a>
+        </div>
+        <ul class="desktopLinks">
+          <li>
+            <a href="kurser.html" class="deskLink">
+              Kurser
+            </a>
+        </li>
+        <li>
+          <a href="om.html" class="deskLink">
+            Om Maddesign
+          </a>
+        </li>
+        <li>
+          <a href="contact.html" class="deskLink">
+            Kontakt
+          </a>
+        </li>
+        </ul>
+        <div class="varukorg">
+          <a href="kundvagn.html" class="deskShop">
+            Varukorg
+            <div class="varuCount"></div>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <main class="aboutContent">
+        <section class="aboutSectionOne">
+            <div class="textContainer">
+                <h1>Om Maddesign</h1>
+                <p class="subheader">
+                    Sätt igång kreativiteten och upplev den fantastiska känslan av att forma något unikt i lera hos MaddeSign! Den som äger keramikstudion är jag, Madeleine Hasselwander. Studion är belägen centralt i Karlstad vid Klarälven. 
+                </p>
+                <p class="aboutText">
+                    I min keramikstudio skapar jag bruksföremål i stengodslera genom drejning, kavling och tumning. Utforska keramikens värld genom prova-på-kurser, delta i inspirerande events som AW och företagsaktiviteter eller anordna möhippor/svensexor. MaddeSign – där skapandet och lärandet möts vid Klarälvens strand!
+                </p>
+            </div>
+            <div class="imageContainerOne">
+                <img src="img/Drawn_Circle.svg" class="circle">
+                <img src="img/kopplaAv.svg" class="kopplaAv">
+                <img src="img/MaddeFoto.webp">
+            </div>
+        </section>
+        <section class="aboutSectionTwo">
+            <div class="textContainer">
+                <p class="aboutText">
+                    Mitt första möte med lera var under arbetsterapeututbildningen 1994, då jag under en vecka fick prova på att skapa i lera. Jag vill inte påstå att jag var speciellt uppfylld av lera som material vid den perioden i mitt liv, utan den veckan bestod mest av frustration över hur svårt det var.
+                </p>
+                <p class="aboutText">
+                    Det dröjde ända tills 2013 innan jag, via en prova-på-kurs, blev helt såld på lera som material. När jag sedan 2016 förlorade min man, och blev ensam förälder till våra tre killar, blev leran min terapi och mitt andningshål.
+                </p>
+            </div>
+            <div class="imageContainerTwo">
+                <img src="img/stampelSkal.png">
+            </div>
+        </section>
+        <section class="aboutSectionThree">
+            <div class="textContainer">
+                <p class="aboutText">
+                    Sen dess har jag gått kurs, hyrt in mig i en keramikverkstad & via en förening också haft tillgång till lokal och utrustning. Under 2020 har jag tagit lektioner hos keramikern Agneta Taube och fördjupat mina kunskaper inom bland annat glasyrer och bränning.
+                </p>
+                <p class="aboutText">
+                    Våren 2020 bestämde jag mig för att flytta till Karlstad och den speciella situationen som corona skapade gjorde att jag också tog beslutat att äntligen satsa på att ha min alldeles egna keramikstudio.
+                </p>
+            </div>
+            <div class="imageContainerThree">
+                <img src="img/roligGrej.svg" class="roligGrej">
+                <img src="img/MaddeFoto2.png">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="boxAroundAll">
+        <img
+            src="icons/logga_mobil.svg"
+            alt="open the menu"
+            class="logo"
+          />
+          <div class="boxAllLinks">
+            <div class="collapsible">
+              <button id="rotate" onclick="rotateImage()" class="collapsible-btn">
+                Kontakt
+                <img id="rotated"
+                src="icons/Madde_arrowDown.svg"
+                alt="arrow to footer"
+                class="arrow"
+              />
+              </button>
+              <div class="collapsible-content">
+                <a href="#"
+                  >MaddeSign AB</a
+                >
+                <a href="#"
+                  >073-88 646 88
+                  </a
+                >
+                <a href="#"
+                  >madde@madde-sign.se</a
+                >
+                <a href="#"
+                  >Älvbrinken 4B</a
+                >
+                <a href="#"
+                  >652 25 Karlstad</a
+                >
+              </div>
+            </div>
+            <div class="boxLinksAndIcons">
+            <div class="collapsible">
+              <button id="rotateSecondBtn" onclick="rotateImageTwo()"  class="collapsible-btn">
+               Snabblänkar
+                <img id="rotatedTwo"
+                  src="icons/Madde_arrowDown.svg"
+                  alt="link to footer"
+                  class="arrow"
+                />
+              </button>
+              <div class="collapsible-content">
+                <a href="om.html">Om MaddeSign</a>
+                <a href="kurser.html">Boka en kurs
+                </a>
+                <a href="event.html">Boka privat event</a>
+                <a href="contact.html">Kontakta mig</a>
+              </div>
+            </div>
+         <div class="icons-box">
+            <a href="https://www.facebook.com/maddesignkeramik">
+              <img
+              src="icons/facebook.svg"
+              alt="open the menu"
+              class="facebook-icon"
+            />
+            </a>
+            <div class="instagram-icon">
+              <a href="https://www.instagram.com/australia_keramik/"><img
+                src="icons/instagram.svg"
+                alt="open the menu"
+              /></a>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
